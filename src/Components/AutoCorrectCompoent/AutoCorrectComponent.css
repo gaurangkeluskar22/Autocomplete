@@ -1,0 +1,9 @@
+.autocorrect-container{
+    background: rgb(231, 231, 231);
+    width: 250px;
+    margin-top: -15px;
+}
+
+.autocorrect-element{
+    padding: 5px;
+}

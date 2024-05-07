@@ -17,3 +17,9 @@
     right: 25px;
     top:7px;
 }
+
+.inputbox-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

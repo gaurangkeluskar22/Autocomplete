@@ -1,9 +1,17 @@
+import './AutoCorrectComponent.css'
+
+const AutoCorrectCompoent = ({searchData, onClick}) => {
 
 
-const AutoCorrectCompoent = () => {
     return(
-        <div>
-
+        <div className="autocorrect-container">
+            {
+                searchData?.map((item,index)=>{
+                    return(
+                        <div key={index} className='autocorrect-element' onClick={()=>onClick(item)}>{item}</div>
+                    )
+                })
+            }
         </div>
     )
 }

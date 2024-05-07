@@ -1,15 +1,12 @@
-import { useState } from 'react';
 import './App.css';
 import InputBox from './Components/InputBox/InputBox';
-import AutoCorrectCompoent from './Components/AutoCorrectCompoent/AutoCorrectCompoent';
 
 function App() {
-  const [inputText, setInputText] = useState('')
+  const data = ['apple', 'lemon', 'sugar', 'water', 'juice']
 
   return (
     <div className="App">
-      <InputBox inputText={inputText} setInputText={setInputText}/>
-      <AutoCorrectCompoent/>
+      <InputBox data={data}/>
     </div>
   );
 }
