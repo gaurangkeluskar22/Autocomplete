@@ -1,0 +1,19 @@
+.input-wrapper{
+    position: relative;
+    width: 300px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-textbox{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+}
+
+.input-cancel{
+    position: absolute;
+    right: 25px;
+    top:7px;
+}
